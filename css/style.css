@@ -342,6 +342,20 @@
 
   /* End Landing */
 
+  .x {
+text-align: center;
+  }
+
+  .xx {
+padding-bottom: 25px;
+font-size: 30px;
+  }
+
+  .xxx {
+font-size: 20px;
+margin-bottom: 20px;
+  }
+
     /* Start About */
 
 .about {
@@ -804,7 +818,7 @@
 
 .socialIcons a:hover{
     background-color: var(--main-color-alt);
-    transition: 0.5s;
+    transition: var(--main-transition);
 }
 .socialIcons a:hover i{
     color: white;

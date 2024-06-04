@@ -104,6 +104,13 @@
         z-index: 100;
       }
 
+      .center  i {
+        color: white;
+      }
+
+      .center a {
+        background: #25d366;
+      }
 
       .center li:hover i {
         color:  var(--main-color);

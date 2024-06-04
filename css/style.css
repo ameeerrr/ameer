@@ -102,19 +102,24 @@
         bottom: 0;
         right: 0;
         z-index: 100;
+        padding: 7px;
       }
 
       .center  i {
-        color: white;
-      }
+
+        color: white ;
+      } 
 
       .center a {
-        background: #25d366 !important ;
+        background:var(--main-color)!important ;
+        transition: var(--main-transition);
+
+      }
+      .center:hover a {
+        background:  #25d366   !important;
       }
 
-      .center li:hover i {
-        color:  var(--main-color);
-      }
+
 
     /* End global rules */
     /* Start header */

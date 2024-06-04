@@ -109,7 +109,7 @@
       }
 
       .center a {
-        background: #25d366;
+        background: #25d366 !important ;
       }
 
       .center li:hover i {

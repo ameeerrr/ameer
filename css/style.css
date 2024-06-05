@@ -33,8 +33,12 @@
     }
 
     .container {
-        padding-inline:15px ;
-        margin-inline: auto;
+      -webkit-padding-inline:15px;
+      -moz-padding-inline:15px;
+      padding-inline:15px;
+      -webkit-margin-inline:auto;
+      -moz-margin-inline:auto;
+      margin-inline: auto;
     }
     
     @media (min-width:768px) {
@@ -106,20 +110,16 @@
       }
 
       .center  i {
-
         color: white ;
       } 
 
       .center a {
         background:var(--main-color)!important ;
         transition: var(--main-transition);
-
       }
       .center:hover a {
-        background:  #25d366   !important;
+        background:  #25d366 !important;
       }
-
-
 
     /* End global rules */
     /* Start header */
@@ -148,8 +148,6 @@
         height: 72px;
     }
 
-    header nav {
-    }
 
     header .toggle-menu {
     cursor: pointer;
@@ -245,23 +243,16 @@
       border-radius: 5px;
       padding: 2px;
       cursor: pointer;
-      /* appearance: none; */
       background-color: #eee;
     }
-    /* header select::after {
-      content: "";
-      border-width: 20px;
-      border-style: solid;
-      border-color: transparent;
-      border-top-color: #222222;
-      position: absolute;
-    } */
+
     /* End header */
 
     /* Start Landing */
 .landing {
     position: relative;
-  }
+  }  
+
   .landing::before {
     content: "";
     position: absolute;
@@ -274,30 +265,36 @@
     transform: skewY(-6deg);
     transform-origin: top left;
   }
+
   .landing .container {
     min-height: calc(100vh - 72px);
     display: flex;
     align-items: center;
     padding-bottom: 120px;
   }
+
   .landing .text {
     flex: 1;
   }
+
   @media (max-width: 991px) {
     .landing .text {
       text-align: center;
     }
   }
+
   .landing .text h1 {
     font-size: 40px;
     margin: 0;
     letter-spacing: -2px;
   }
+
   @media (max-width: 767px) {
     .landing .text h1 {
       font-size: 28px;
     }
   }
+
   .landing .text p {
     font-size: 23px;
     line-height: 1.7;
@@ -305,11 +302,13 @@
     color: #666;
     max-width: 500px;
   }
+
   @media (max-width: 991px) {
     .landing .text p {
       margin: 10px auto;
     }
   }
+
   @media (max-width: 767px) {
     .landing .text p {
       font-size: 18px;

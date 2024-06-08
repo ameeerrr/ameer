@@ -15,24 +15,12 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@1,200..1000&display=swap" rel="stylesheet">
-     
-      <script type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-  <script type="text/javascript">
-    (function(){
-        emailjs.init("svO_Pt_7yJo3FVndL");
-    })();
-  </script>
-
 </head>
 <body>
       <!-- Start header-->
       <header>
         <div class="container">  
-              <a href="#" class="logo">Logo
-                <img src="" alt="" >
-              </a>
+              <a href="#" class="logo" id="logo" ><img src="./images/logo.png" alt="" ></a>
               <nav>
             <i class="fas fa-bars toggle-menu" style="font-size: 30px;"></i>
                 <ul>
@@ -43,8 +31,8 @@
                     <li> <a href="#contact" data-i18n="contact">Contact</a></li>
                     <li>
                      <select >
-                      <option class="a" value="en" selected  data-i18n="english">English</option>
-                      <option class="b" value="ar"  data-i18n="arabic">العربية</option>
+                      <option class="english" value="en" selected  data-i18n="english">English</option>
+                      <option class="arabic" value="ar"  data-i18n="arabic">العربية</option>
                      </select>
                   </li>
                 </ul> 
@@ -68,18 +56,25 @@
         </a>
       </div>
       <!-- End Landing -->
-      <ul class="social-icons center socialIcons">
+
+      <!-- Start corner -->
+      <ul class="social-icons socialIcons corner ">
           <a class="facebook" href="https://wa.me/+971566949815"><i class="fa-brands fa-whatsapp green"></i></a>
       </ul>
-     <div class="x">
+      <!-- End corner -->
+
+       <!-- start introduction -->
+     <div class="introduction">
       <div class="container">
-      <h2 class="xx" data-i18n="x_h2">Welcome To Y Company</h2>
-      <p class="xxx" data-i18n="x_p">
+      <h2  data-i18n="introduction_h2">Welcome To Y Company</h2>
+      <p  data-i18n="introduction_p">
         You can trust it Y has helped hundreds of customers start their businesses and realize their dreams. Our company specializes in designing websites, and we also provide a range of excellent services that will contribute to the success of your company. Y is able to help you build your own brand, increase your business traffic on the Internet, and build a strong presence on the Internet. We create a website that attracts new customers, makes it easy to order your products, and we can turn any idea into a website. 
         Business websites must be easy to navigate, attractive and powerful, and most importantly, they must be responsive because many customers use smartphones and tablets to access their needs online Y has superior experience in creating influential websites that attract many potential customers and convert them into continuing customers. It also makes your website ranked first in search engines. We offer the latest developments and technologies to our customers
         </p>
       </div>
      </div>
+     <!-- End introduction -->
+
           <!-- Start About -->
     <div class="about" id="about">
         <h2 class="main-title" data-i18n="about">About us</h2>
@@ -88,11 +83,11 @@
             <p data-i18n="about_p">
               We have a specialized team of website developers and designers who are ready to work to put your company at the top through a strong and attractive website, ensuring that customers can access your company’s website easily and simply. We create websites that are visually attractive, fast, and most importantly, secure.
             </p>
-            
           </div>
         </div>
       </div>
       <!-- End About -->
+
       <!--staret stats-->
       <div class="stats">
         <h2 data-i18n="stats_h2">Our Awesome Stats</h2>
@@ -122,7 +117,6 @@
       <!-- End Stats -->
        <!-- Start Features -->
     <div class="features" id="features">
-      <h2 class="main-title" data-i18n="features">Features</h2>
       <div class="container">
         <div class="box quality">
           <div class="img-holder"><img decoding="async" src="images/features-01.jpg" alt="" /></div>

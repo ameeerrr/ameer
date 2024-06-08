@@ -1,3 +1,4 @@
+
 const translaition = {
     en: {
         home:"Home",
@@ -9,8 +10,8 @@ const translaition = {
         arabic:"arabic",
         landing_h1:"Welcome, To our company",
         landing_p:"Here Iam gonna share everything about my company.",
-        x_h2:"Welcome To  Y Company",
-        x_p:"You can trust it Y has helped hundreds of customers start their businesses and realize their dreams. Our company specializes in designing websites, and we also provide a range of excellent services that will contribute to the success of your company. Y is able to help you build your own brand, increase your business traffic on the Internet, and build a strong presence on the Internet. We create a website that attracts new customers, makes it easy to order your products, and we can turn any idea into a website. Business websites must be easy to navigate, attractive and powerful, and most importantly, they must be responsive because many customers use smartphones and tablets to access their needs online Y has superior experience in creating influential websites that attract many potential customers and convert them into continuing customers. It also makes your website ranked first in search engines. We offer the latest developments and technologies to our customers ",
+        introduction_h2:"Welcome To  Y Company",
+        introduction_p:"You can trust it Y has helped hundreds of customers start their businesses and realize their dreams. Our company specializes in designing websites, and we also provide a range of excellent services that will contribute to the success of your company. Y is able to help you build your own brand, increase your business traffic on the Internet, and build a strong presence on the Internet. We create a website that attracts new customers, makes it easy to order your products, and we can turn any idea into a website. Business websites must be easy to navigate, attractive and powerful, and most importantly, they must be responsive because many customers use smartphones and tablets to access their needs online Y has superior experience in creating influential websites that attract many potential customers and convert them into continuing customers. It also makes your website ranked first in search engines. We offer the latest developments and technologies to our customers ",
         features_quality_h2:"Gather Requirements",
         features_quality_p:"Create a list of customer requirements",
         more:"more",
@@ -63,8 +64,8 @@ const translaition = {
         features_quality_h2:"جمع متطلبات العملاء",
         features_quality_p:"إنشاء قائمة بمتطلبات العملاء",
         more:"المزيد",
-        x_p:"ساعدت Y مئات العملاء على بدء أعمالهم التجارية وتحقيق أحلامهم. شركتنا متخصصة في تصميم المواقع الإلكترونية، كما نقدم مجموعة من الخدمات المتميزة التي من شأنها أن تساهم في نجاح شركتك. Y قادر على مساعدتك في بناء علامتك التجارية الخاصة، وزيادة حركة مرور أعمالك على الإنترنت، وبناء حضور قوي على الإنترنت. نقوم بإنشاء موقع إلكتروني يجذب عملاء جدد، ويسهل عليك طلب منتجاتك، كما يمكننا تحويل أي فكرة إلى موقع إلكتروني. يجب أن تكون مواقع الويب التجارية سهلة التنقل وجذابة وقوية، والأهم من ذلك، يجب أن تكون سريعة الاستجابة لأن العديد من العملاء يستخدمون الهواتف الذكية والأجهزة اللوحية للوصول إلى احتياجاتهم عبر الإنترنت. تتمتع Y بخبرة فائقة في إنشاء مواقع ويب مؤثرة تجذب العديد من العملاء المحتملين وتحولهم إلى مواقع ويب مستمرة عملاء. كما أنه يجعل موقع الويب الخاص بك في المرتبة الأولى في محركات البحث. نحن نقدم أحدث التطورات والتقنيات لعملائنا",
-        x_h2:"اهلا بك في شركة واي",
+        introduction_p:"ساعدت Y مئات العملاء على بدء أعمالهم التجارية وتحقيق أحلامهم. شركتنا متخصصة في تصميم المواقع الإلكترونية، كما نقدم مجموعة من الخدمات المتميزة التي من شأنها أن تساهم في نجاح شركتك. Y قادر على مساعدتك في بناء علامتك التجارية الخاصة، وزيادة حركة مرور أعمالك على الإنترنت، وبناء حضور قوي على الإنترنت. نقوم بإنشاء موقع إلكتروني يجذب عملاء جدد، ويسهل عليك طلب منتجاتك، كما يمكننا تحويل أي فكرة إلى موقع إلكتروني. يجب أن تكون مواقع الويب التجارية سهلة التنقل وجذابة وقوية، والأهم من ذلك، يجب أن تكون سريعة الاستجابة لأن العديد من العملاء يستخدمون الهواتف الذكية والأجهزة اللوحية للوصول إلى احتياجاتهم عبر الإنترنت. تتمتع Y بخبرة فائقة في إنشاء مواقع ويب مؤثرة تجذب العديد من العملاء المحتملين وتحولهم إلى مواقع ويب مستمرة عملاء. كما أنه يجعل موقع الويب الخاص بك في المرتبة الأولى في محركات البحث. نحن نقدم أحدث التطورات والتقنيات لعملائنا",
+        introduction_h2:"اهلا بك في شركة واي",
         features_passion_h2:"التخطيط والتصميم",
         features_passion_p:"جمع المعلومات والمتطلبات، ثم إنشاء التصميم الأساسي لتوضيح كيفية عمل الموقع",
         features_time_h2:"البدء بالتنفيذ",
@@ -101,4 +102,4 @@ const translaition = {
     }
 }
 
-export default translaition;
+export default translaition

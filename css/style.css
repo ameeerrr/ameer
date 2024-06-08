@@ -20,6 +20,11 @@
     body {
         font-family: "Cairo", sans-serif,Arial, Helvetica, sans-serif;
     }
+
+    img {
+      max-width: 100%;
+    }
+
     
     a {
     text-decoration: none;
@@ -98,31 +103,9 @@
         transition-delay: 0.5s;
       }
 
-      .center {
-        font-size: 30px;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        z-index: 100;
-        padding: 7px;
-      }
-
-      .center  i {
-        color: white ;
-      } 
-
-      .center a {
-        background:var(--main-color)!important ;
-        transition: var(--main-transition);
-      }
-      .center:hover a {
-        background:  #25d366 !important;
-      }
-
     /* End global rules */
     /* Start header */
+
      header {
         background-color: white;
         position: relative;
@@ -139,14 +122,19 @@
     }
 
     header .logo {
+      width: 200px;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         color: var(--main-color);
         font-size: 26px;
         font-weight: bold;
         height: 72px;
     }
+
+  header img {
+    width: 65px;
+  }
 
 
     header .toggle-menu {
@@ -341,19 +329,54 @@
 
   /* End Landing */
 
-  .x {
+  /* Start corner */
+  .corner {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    padding: 7px;
+  }
+
+  .corner  i {
+    color: white ;
+  } 
+
+  .corner a {
+    width: 60px !important;
+    height: 60px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    align-items: center;
+    background:var(--main-color)!important ;
+    transition: var(--main-transition);
+  }
+  .corner:hover a {
+    background:  #25d366 !important;
+  }
+  /* End corner */
+
+  /* Start introduction */
+  .introduction {
 text-align: center;
   }
 
-  .xx {
+  .introduction h2 {
 padding-bottom: 25px;
 font-size: 30px;
   }
 
-  .xxx {
+  .introduction p {
 font-size: 20px;
 margin-bottom: 20px;
   }
+
+  /* End introduction */
 
     /* Start About */
 
@@ -804,6 +827,12 @@ margin-bottom: 20px;
     justify-content: center;
 }
 .socialIcons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    text-align: center;
     text-decoration: none;
     padding:  10px;
     background-color: white;

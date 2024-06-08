@@ -430,7 +430,8 @@ margin-bottom: 20px;
   
   /* Start Stats */
 .stats {
-    padding-block: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     position: relative;
     background-image: url("../images/stats.jpg");
     background-size: cover;

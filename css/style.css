@@ -38,13 +38,11 @@
     }
 
     .container {
-      /* -webkit-padding-inline:15px;
-      -moz-padding-inline:15px;
-      padding-inline:15px; */
-      -webkit-margin-inline:auto;
-      -moz-margin-inline:auto;
-      margin-inline: auto;
-    }
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+     }
     
     @media (min-width:768px) {
         .container {

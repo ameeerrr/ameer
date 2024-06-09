@@ -886,6 +886,9 @@ margin-bottom: 20px;
     font-weight: 400;
     margin: 0px 5px;
 }
+footer i {
+  color: #26272b;
+}
 @media (max-width: 700px){
     .footerNav ul{
         flex-direction: column;
@@ -901,33 +904,7 @@ margin-bottom: 20px;
     }
 }
 
-.green {
-  color: #25d366;
-}
 
-.purple {
-  color:#5B51D8;
-}
-
-.linkedin{
-  color: #007bb6
-}
-
-.facebook {
-  color: #3b5998;
-}
-
-.twitter {
-  color: #1DA1F2;
-}
-
-.youtube {
-  color: #FF0000;
-} 
-
-.snap {
-  color: #FFFC00;
-}
   /* End footer */
 
   @keyframes bouncing {

@@ -173,6 +173,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-right:20px;
     }
     @media (max-width:767px) {
       header nav ul li:last-child {
@@ -221,6 +222,14 @@
             font-size: 18px;
           }
     }
+    @media (max-width:991px) {
+        header nav ul li a {
+          font-size: 18px;
+          padding: 0;
+          width: 109px;
+          }
+    }
+
   
     header select {
       position: relative;

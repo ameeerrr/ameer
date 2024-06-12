@@ -2,23 +2,23 @@ import translaition from "./translaition.js"
 
 //Toggle
 
-let myToggle = document.querySelector(".toggle-menu")
-let myList = document.querySelector("ul")
-let myBtn= document.querySelector(".btn")
+let myToggle = document.querySelector(".toggle-menu");
+let myList = document.querySelector("ul");
+let myBtn= document.querySelector(".btn");
 
 myToggle.addEventListener("click",()=>{
 myToggle.classList.toggle("menu-active")
 myList.classList.toggle("menu-active")
 myBtn.classList.toggle("menu-active")
-})
+});
 
 
 // Form
 
-const form= document.querySelector("form")
-const from_name= document.getElementById("name")
-const email_id= document.getElementById("email_id")
-const message = document.getElementById("message")
+const form= document.querySelector("form");
+const from_name= document.gsetElementById("name");
+const email_id= document.getElementById("email_id");
+const message = document.getElementById("message");
 const serviceID ="service_ck22gvo";
 const templateID ="template_dhldube";
 const publicKey ="svO_Pt_7yJo3FVndL";
@@ -77,6 +77,6 @@ console.log(logo);
     document.dir="ltr";
     logo.style.justifyContent="" ;
 }
-}
+};
 
 

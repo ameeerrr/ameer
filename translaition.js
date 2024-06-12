@@ -9,7 +9,7 @@ const translaition = {
         english:"English",
         arabic:"arabic",
         landing_h1:"General company information",
-        landing_p:"Y helps the world work better And improving the lives of individuals, through a global network of customers, partners, employees, and thought leaders..",
+        landing_p:"Y helps the world work better And improving the lives of individuals, through a global network of customers, partners, employees, and thought leaders.",
         introduction_h2:"Welcome To  Y Company",
         introduction_p:"You can trust it Y has helped hundreds of customers start their businesses and realize their dreams. Our company specializes in designing websites, and we also provide a range of excellent services that will contribute to the success of your company. Y is able to help you build your own brand, increase your business traffic on the Internet, and build a strong presence on the Internet. We create a website that attracts new customers, makes it easy to order your products, and we can turn any idea into a website. Business websites must be easy to navigate, attractive and powerful, and most importantly, they must be responsive because many customers use smartphones and tablets to access their needs online Y has superior experience in creating influential websites that attract many potential customers and convert them into continuing customers. It also makes your website ranked first in search engines. We offer the latest developments and technologies to our customers ",
         features_quality_h2:"Gather Requirements",
@@ -102,4 +102,4 @@ const translaition = {
     }
 }
 
-export default translaition
+export default translaition;

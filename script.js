@@ -66,11 +66,13 @@ let english = document.querySelector(".english");
 let arabic = document.querySelector(".arabic");
 
 let logo = document.getElementById("logo");
+let lastLi = document.getElementById("last");
 
 console.log(logo);
  if (lang==="ar"){
     document.dir="rtl";
-     logo.style.justifyContent="right" 
+     logo.style.justifyContent="right"
+     lastLi.style.marginRight="20px" 
         english.removeAttribute("selected");
         arabic.setAttribute("selected","")
 }else {

@@ -68,7 +68,6 @@ let arabic = document.querySelector(".arabic");
 let logo = document.getElementById("logo");
 let lastLi = document.getElementById("last");
 
-console.log(logo);
  if (lang==="ar"){
     document.dir="rtl";
      logo.style.justifyContent="right"

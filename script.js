@@ -52,10 +52,13 @@ lngSelector.addEventListener("change",(e)=>{
 setLang(e.target.value);
 localStorage.setItem("lang",e.target.value);
 })
-document.addEventListener("DOMContentLoaded",()=> {
-    
-    setLang(localStorage.getItem("lang"));
-})
+document.addEventListener("DOMContentLoaded", () => {
+    // Check if a language is stored in localStorage, otherwise default to "ar"
+    let lang = localStorage.getItem("lang") || "ar"; // "ar" as the default language
+    setLang(lang); // Set the language on page load
+    document.querySelector("select").value = lang; // Set the default value of the selector
+});
+
 const setLang = (lang) => {
 const elements = document.querySelectorAll("[data-i18n]");
 elements.forEach((element)=> {
@@ -79,4 +82,3 @@ let lastLi = document.getElementById("last");
     logo.style.justifyContent="" ;
 }
 }
-
